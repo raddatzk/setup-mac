@@ -9,6 +9,8 @@ function enroll_device() {
     echo ""
 }
 
+enroll_device
+
 function install_git() {
     echo "Installing git..."
     xcode-select --install
